@@ -1,3 +1,9 @@
+//////https://dev.to/chefgs/create-apache-web-server-in-aws-using-terraform-1fpj#install-and-configure-aws-cli
+
+
+
+
+
 terraform {
   required_providers {
     aws = {
