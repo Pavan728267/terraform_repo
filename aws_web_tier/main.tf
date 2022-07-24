@@ -83,3 +83,19 @@ resource "aws_instance" "web" {
   } 
 }
 
+
+
+
+terraform init
+terraform plan -var-file=aws.tfvars
+terraform apply -var-file=aws.tfvars -auto-approve
+
+
+output----------
+  aws_instance.web: Creation complete after 33s [id=i-07f19000878a6ec11]
+
+Apply complete! Resources: 7 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+web_instance_ip = "34.220.248.140"
